@@ -1,0 +1,85 @@
+/* CSS Document */
+
+
+* {
+	margin: 0 0 0 0;
+}
+
+
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0 0 0 0;
+}
+
+body {
+
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+
+/*.navbar {
+	padding-bottom: 50px;
+}*/
+
+header {
+  background-color: red;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.banner {
+  width: 100%;
+  position: fixed;
+  background-color: #707070;
+  margin: 0 0 0 0;
+}
+
+.content {
+  width: 100%;
+  position: relative;
+  background-color: #ebebeb;
+  height: 1500px;
+  margin: 0 0 0 0;
+}
+
+/*////////////////////////////////////////////////*/
+	/* Media Queries */
+
+@media (min-width: 320px) {
+	.navbar {
+		padding-bottom: 15px;
+	}
+	.banner {
+		height: 175px;
+		top: 105px;
+	}
+	header {
+		height: 40px;
+		top: 65px;
+	}
+	.content {
+		top: 280px;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar {
+		padding-bottom: 50px;
+	}
+	.banner {
+		height: 300px;
+		top: 145px;
+	}
+	header {
+		height: 45px;
+		top: 100px;
+	}
+	.content {
+		top: 445px;
+	}
+}
